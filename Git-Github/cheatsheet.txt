@@ -1,0 +1,72 @@
+CHEATSHEET GIT GITHUB
+    git init
+        Sintaxis: git init
+        Descripción: Inicializa un nuevo repositorio de Git en el directorio actual.
+
+    git clone
+        Sintaxis: git clone <URL del repositorio>
+        Descripción: Clona un repositorio existente desde una URL remota a tu directorio local.
+
+    git add
+        Sintaxis: git add <archivo>
+        Descripción: Agrega un archivo específico a la staging area, preparándolo para la próxima confirmación.
+
+    git commit
+        Sintaxis: git commit -m "Mensaje de confirmación"
+        Descripción: Realiza una confirmación de los cambios en la staging area y los agrega al historial de versiones.
+
+    git push
+        Sintaxis: git push <nombre_remoto> <nombre_rama>
+        Descripción: Envía los cambios confirmados a un repositorio remoto especificado.
+
+    git pull
+        Sintaxis: git pull <nombre_remoto> <nombre_rama>
+        Descripción: Descarga los últimos cambios desde un repositorio remoto y fusiona esos cambios en tu rama local.
+
+    git status
+        Sintaxis: git status
+        Descripción: Muestra el estado actual del repositorio, incluyendo los archivos modificados, agregados o eliminados.
+
+    git branch
+        Sintaxis: git branch
+        Descripción: Lista todas las ramas en el repositorio y muestra la rama actual resaltada.
+
+    git checkout
+        Sintaxis: git checkout <nombre_rama>
+        Descripción: Cambia a la rama especificada, actualizando el directorio de trabajo para reflejar esa rama.
+
+    git merge
+        Sintaxis: git merge <nombre_rama>
+        Descripción: Fusiona los cambios de una rama específica en la rama actual.
+    
+        git log
+        Sintaxis: git log
+        Descripción: Muestra el historial de confirmaciones (commits) en orden cronológico inverso, con detalles como el autor, la fecha y el mensaje de cada confirmación.
+
+    git diff
+        Sintaxis: git diff
+        Descripción: Muestra las diferencias entre los archivos modificados en tu directorio de trabajo y la última confirmación.
+
+    git remote
+        Sintaxis: git remote add <nombre_remoto> <URL_remoto>
+        Descripción: Agrega un repositorio remoto con el nombre especificado y la URL remota asociada.
+
+    git rm
+        Sintaxis: git rm <nombre_archivo>
+        Descripción: Elimina un archivo del directorio de trabajo y lo marca para ser eliminado en la próxima confirmación.
+
+    git reset
+        Sintaxis: git reset <commit>
+        Descripción: Deshace los commits y los cambios posteriores al commit especificado, manteniendo los cambios en el directorio de trabajo.
+
+    git stash
+        Sintaxis: git stash
+        Descripción: Guarda temporalmente los cambios no confirmados en una pila de cambios (stash) para que puedas cambiar de rama o trabajar en otra tarea.
+
+    git fetch
+        Sintaxis: git fetch <nombre_remoto>
+        Descripción: Descarga los últimos cambios desde un repositorio remoto sin fusionarlos con tu rama actual.
+
+    git config
+        Sintaxis: git config --global <clave> <valor>
+        Descripción: Configura opciones y ajustes de Git, como el nombre de usuario y la dirección de correo electrónico.
